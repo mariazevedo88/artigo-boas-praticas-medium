@@ -34,6 +34,10 @@ public class Venda {
 		this.produtos = produtos;
 	}
 	
+	public Venda(double valorBruto) {
+		this.valorBruto = valorBruto;
+	}
+	
 	public String getComprador() {
 		return comprador;
 	}
@@ -88,6 +92,17 @@ public class Venda {
 
 	public void setProdutos(List<Produto> produtos) {
 		this.produtos = produtos;
+	}
+	
+	/**
+	 * Metodo que soma o valor de todos os produtos da venda
+	 * @author Mariana Azevedo
+	 * @since 04/02/2019
+	 * 
+	 * @return
+	 */
+	public double getValorTotal() {
+		return this.produtos.stream().map(produto -> produto.getValor()).reduce(0d, Double::sum);
 	}
 
 	@Override
