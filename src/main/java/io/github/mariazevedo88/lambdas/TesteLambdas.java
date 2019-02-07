@@ -10,6 +10,13 @@ import io.github.mariazevedo88.builder.Produto;
 import io.github.mariazevedo88.builder.Venda;
 import io.github.mariazevedo88.builder.VendaBuilder;
 
+/**
+ * Classe de teste de Lambdas
+ * 
+ * @author Mariana Azevedo
+ * @since 06/02/2019
+ *
+ */
 public class TesteLambdas {
 	
 	private static final Logger logger = Logger.getLogger(TesteLambdas.class);

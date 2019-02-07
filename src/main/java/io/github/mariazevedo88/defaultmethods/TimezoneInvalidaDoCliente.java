@@ -10,6 +10,7 @@ public interface TimezoneInvalidaDoCliente extends TimezoneCliente{
 	
 	static final Logger logger = Logger.getLogger(TimezoneInvalidaDoCliente.class);
 	
+	@Override
 	public default ZonedDateTime getZonedDateTime(String zona) {
         try {
             return ZonedDateTime.of(getLocalDateTime(),ZoneId.of(zona)); 

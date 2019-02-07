@@ -20,6 +20,8 @@ public class Venda {
     private double valorLiquido;
     private double descontos;
     
+    private Integer numeroParcelas;
+    
     private List<Produto> produtos = new ArrayList<>();
     
 	public Venda(String comprador, String documentoComprador, Instant dataDaVenda, double valorBruto,
@@ -32,6 +34,13 @@ public class Venda {
 		this.valorLiquido = valorLiquido;
 		this.descontos = descontos;
 		this.produtos = produtos;
+	}
+	
+	public Venda(String comprador, String documentoComprador, Instant dataDaVenda, Integer numeroParcelas) {
+		this.comprador = comprador;
+		this.documentoComprador = documentoComprador;
+		this.dataDaVenda = dataDaVenda;
+		this.numeroParcelas = numeroParcelas;
 	}
 	
 	public Venda(double valorBruto) {
@@ -94,6 +103,14 @@ public class Venda {
 		this.produtos = produtos;
 	}
 	
+	public Integer getNumeroParcelas() {
+		return numeroParcelas;
+	}
+
+	public void setNumeroParcelas(Integer numeroParcelas) {
+		this.numeroParcelas = numeroParcelas;
+	}
+
 	/**
 	 * Metodo que soma o valor de todos os produtos da venda
 	 * @author Mariana Azevedo

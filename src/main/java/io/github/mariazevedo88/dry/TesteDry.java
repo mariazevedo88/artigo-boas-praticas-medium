@@ -2,6 +2,13 @@ package io.github.mariazevedo88.dry;
 
 import org.apache.log4j.Logger;
 
+/**
+ * Classe de teste Dry
+ * 
+ * @author Mariana Azevedo
+ * @since 06/02/2019
+ *
+ */
 public class TesteDry {
 	
 	private static final Logger logger = Logger.getLogger(TesteDry.class);

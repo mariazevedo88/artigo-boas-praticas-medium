@@ -6,6 +6,13 @@ import java.time.ZonedDateTime;
 
 import org.apache.log4j.Logger;
 
+/**
+ * Classe de teste de Default Methods
+ * 
+ * @author Mariana Azevedo
+ * @since 06/02/2019
+ *
+ */
 public class TesteTimezone implements TimezoneInvalidaDoCliente{
 	
 	static final Logger logger = Logger.getLogger(TesteTimezone.class);

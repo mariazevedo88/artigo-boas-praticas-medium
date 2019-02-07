@@ -6,6 +6,13 @@ import io.github.mariazevedo88.builder.Produto;
 import io.github.mariazevedo88.builder.Venda;
 import io.github.mariazevedo88.builder.VendaBuilder;
 
+/**
+ * Classe de teste de um Decorator
+ * 
+ * @author Mariana Azevedo
+ * @since 04/02/2019
+ *
+ */
 public class TesteDecorator {
 
 	private static final Logger logger = Logger.getLogger(TesteDecorator.class);

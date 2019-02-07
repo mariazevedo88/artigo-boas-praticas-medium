@@ -5,6 +5,13 @@ import java.time.ZonedDateTime;
 
 import org.apache.log4j.Logger;
 
+/**
+ * Classe de teste de um DateTime
+ * 
+ * @author Mariana Azevedo
+ * @since 06/02/2019
+ *
+ */
 public class TesteDateTime {
 	
 	private static final Logger logger = Logger.getLogger(TesteDateTime.class);

@@ -7,6 +7,13 @@ import io.github.mariazevedo88.builder.Produto;
 import io.github.mariazevedo88.builder.Venda;
 import io.github.mariazevedo88.builder.VendaBuilder;
 
+/**
+ * Classe de teste de um Template Method
+ * 
+ * @author Mariana Azevedo
+ * @since 06/02/2019
+ *
+ */
 public class TesteTemplateMethod {
 
 	public static void main(String[] args) {
