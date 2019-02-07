@@ -1,11 +1,15 @@
 package io.github.mariazevedo88.decorator;
 
+import org.apache.log4j.Logger;
+
 import io.github.mariazevedo88.builder.Produto;
 import io.github.mariazevedo88.builder.Venda;
 import io.github.mariazevedo88.builder.VendaBuilder;
 
 public class TesteDecorator {
 
+	private static final Logger logger = Logger.getLogger(TesteDecorator.class);
+			
 	public static void main(String[] args) {
 		
 		Desconto descontos = new TarifaAdministrativa(new MDR());
@@ -17,7 +21,7 @@ public class TesteDecorator {
                 .naDataAtual()
                 .constroi();
 		
-        System.out.println(descontos.calcula(venda));
+		logger.info(descontos.calcula(venda));
 	}
 
 }

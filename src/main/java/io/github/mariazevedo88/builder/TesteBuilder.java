@@ -1,5 +1,7 @@
 package io.github.mariazevedo88.builder;
 
+import org.apache.log4j.Logger;
+
 /**
  * Classe de teste do Builder
  * 
@@ -8,8 +10,11 @@ package io.github.mariazevedo88.builder;
  *
  */
 public class TesteBuilder {
+	
+	private static final Logger logger = Logger.getLogger(TesteBuilder.class);
 
 	public static void main(String[] args) {
+		
 		Venda venda = new VendaBuilder().paraComprador("Mariana")
                 .comDocumento("123456789")
                 .comProduto(new Produto("Playstation 4", 1500.0))
@@ -17,6 +22,6 @@ public class TesteBuilder {
                 .naDataAtual()
                 .constroi();
 		
-		System.out.println(venda);
+		logger.info(venda);
 	}
 }
