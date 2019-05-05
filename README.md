@@ -1,4 +1,5 @@
-# artigo-boas-praticas-medium [![Build Status](https://travis-ci.org/mariazevedo88/artigo-boas-praticas-medium.svg?branch=master)](https://travis-ci.org/mariazevedo88/artigo-boas-praticas-medium)
+# artigo-boas-praticas-medium 
+[![Build Status](https://travis-ci.org/mariazevedo88/artigo-boas-praticas-medium.svg?branch=master)](https://travis-ci.org/mariazevedo88/artigo-boas-praticas-medium) ![GitHub repo size](https://img.shields.io/github/repo-size/mariazevedo88/artigo-boas-praticas-medium.svg) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/mariazevedo88/artigo-boas-praticas-medium.svg)  ![GitHub top language](https://img.shields.io/github/languages/top/mariazevedo88/artigo-boas-praticas-medium.svg) ![GitHub language count](https://img.shields.io/github/languages/count/mariazevedo88/artigo-boas-praticas-medium.svg) [![Known Vulnerabilities](https://snyk.io/test/github/mariazevedo88/artigo-boas-praticas-medium/badge.svg?targetFile=pom.xml)](https://snyk.io/test/github/mariazevedo88/artigo-boas-praticas-medium?targetFile=pom.xml) ![GitHub last commit](https://img.shields.io/github/last-commit/mariazevedo88/artigo-boas-praticas-medium.svg)
 
 Implementações dos exemplos demonstrados no artigo publicado na minha página no Medium, pelo EqualsLab. Link abaixo:
 
