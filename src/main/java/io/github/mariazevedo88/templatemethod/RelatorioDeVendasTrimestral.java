@@ -1,4 +1,4 @@
-package io.github.mariaazevedo88.templatemethod;
+package io.github.mariazevedo88.templatemethod;
 
 import java.time.Instant;
 import java.util.List;
