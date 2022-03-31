@@ -4,11 +4,12 @@ import java.time.DateTimeException;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public interface TimezoneInvalidaDoCliente extends TimezoneCliente{
 	
-	static final Logger logger = Logger.getLogger(TimezoneInvalidaDoCliente.class);
+	static final Logger logger = LogManager.getLogger(TimezoneInvalidaDoCliente.class);
 	
 	@Override
 	public default ZonedDateTime getZonedDateTime(String zona) {

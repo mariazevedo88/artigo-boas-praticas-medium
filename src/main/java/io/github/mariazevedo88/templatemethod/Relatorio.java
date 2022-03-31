@@ -10,7 +10,7 @@ public abstract class Relatorio {
     protected abstract void rodape();
     protected abstract void conteudo(List<Venda> vendas);
 
-    public void geraRelatorio(List<Venda> vendas) {
+    public final void geraRelatorio(List<Venda> vendas) {
     	cabecalho();
     	conteudo(vendas);
     	rodape();

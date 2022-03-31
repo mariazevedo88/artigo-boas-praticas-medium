@@ -4,7 +4,8 @@ import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 /**
  * Classe de teste de Default Methods
@@ -15,7 +16,7 @@ import org.apache.log4j.Logger;
  */
 public class TesteTimezone implements TimezoneInvalidaDoCliente{
 	
-	static final Logger logger = Logger.getLogger(TesteTimezone.class);
+	static final Logger logger = LogManager.getLogger(TesteTimezone.class);
 
 	public static void main(String[] args) {
 		

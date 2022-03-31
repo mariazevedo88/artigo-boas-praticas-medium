@@ -1,6 +1,7 @@
 package io.github.mariazevedo88.builder;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 /**
  * Classe de teste do Builder
@@ -11,7 +12,7 @@ import org.apache.log4j.Logger;
  */
 public class TesteBuilder {
 	
-	private static final Logger logger = Logger.getLogger(TesteBuilder.class);
+	private static final Logger logger = LogManager.getLogger(TesteBuilder.class);
 
 	public static void main(String[] args) {
 		

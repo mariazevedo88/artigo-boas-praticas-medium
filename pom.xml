@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.github.mariazevedo88</groupId>
   <artifactId>artigo-boas-praticas-medium</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
   
   <name>artigo-boas-praticas-medium</name>
   <description>Implementações dos exemplos do artigo "Tem um tempinho para conversarmos sobre boas práticas de programação com Java?"</description>
@@ -11,14 +11,20 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
+		<log4j2.version>2.17.2</log4j2.version>
   </properties>
   
   <dependencies>
   		<dependency>
-	    	<groupId>log4j</groupId>
-	    	<artifactId>log4j</artifactId>
-	    	<version>1.2.17</version>
+		    <groupId>org.apache.logging.log4j</groupId>
+		    <artifactId>log4j-api</artifactId>
+		    <version>${log4j2.version}</version>
 		</dependency>
+	  	<dependency>
+	    	<groupId>org.apache.logging.log4j</groupId>
+	    	<artifactId>log4j-core</artifactId>
+	    	<version>${log4j2.version}</version>
+	  	</dependency>
    </dependencies>
    
    <build>

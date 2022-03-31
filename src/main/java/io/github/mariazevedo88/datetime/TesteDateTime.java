@@ -3,7 +3,8 @@ package io.github.mariazevedo88.datetime;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 /**
  * Classe de teste de um DateTime
@@ -14,7 +15,7 @@ import org.apache.log4j.Logger;
  */
 public class TesteDateTime {
 	
-	private static final Logger logger = Logger.getLogger(TesteDateTime.class);
+	private static final Logger logger = LogManager.getLogger(TesteDateTime.class);
 
 	public static void main(String[] args) {
 		//Usamos o ZonedDateTime

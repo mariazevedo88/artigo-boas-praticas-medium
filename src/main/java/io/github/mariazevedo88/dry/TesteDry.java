@@ -1,6 +1,7 @@
 package io.github.mariazevedo88.dry;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 /**
  * Classe de teste Dry
@@ -11,7 +12,7 @@ import org.apache.log4j.Logger;
  */
 public class TesteDry {
 	
-	private static final Logger logger = Logger.getLogger(TesteDry.class);
+	private static final Logger logger = LogManager.getLogger(TesteDry.class);
 
 	public static void main(String[] args) {
 		

@@ -3,13 +3,14 @@ package io.github.mariazevedo88.templatemethod;
 import java.time.Instant;
 import java.util.List;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import io.github.mariazevedo88.builder.Venda;
 
 public class RelatorioDeVendasTrimestral extends Relatorio {
 	
-	private static final Logger logger = Logger.getLogger(RelatorioDeVendasTrimestral.class);
+	private static final Logger logger = LogManager.getLogger(RelatorioDeVendasTrimestral.class);
 
 	@Override
 	protected void cabecalho() {
